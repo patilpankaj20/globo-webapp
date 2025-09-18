@@ -46,5 +46,9 @@ variable "vpc_id" {
   type        = string
   description = "(Required) VPC ID of VPC for application deployment."
 }
+variable "playbook_repository" {
+  type        = string
+  description = "(Required) URI of ANsible playbook"
+}
 
 
